@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id= "btnChat" onclick="chatActive()"> CHAT </button>
+    <div id="chat"> <h2> Chat en linea </h2> </div>
+
+    <h1>FIGURAS GEOMETRICAS</h1>
+<div id="fila">
+    <div id="contBotones">
+        <h2> BOTONES </h2>
+        <button onclick="fcirculo()"> Circulo </button>
+        <button onclick="frombo()"> Rombo </button>
+        <button onclick="frectahori()"> Rectangulo horizontal </button>
+        <button onclick="frectaver()"> Rectangulo vertical </button>
+        <button onclick="fimagen()"> Imagen </button>
+        <button onclick="farriba()"> Arriba </button>
+        <button onclick="fabajo()"> Abajo </button>
+        <button onclick="fizqui()"> Izquierda </button>
+        <button onclick="fderecha()"> Derecha </button>
+        <button onclick="fdiagonal()"> Diagonal </button>
+    </div>
+
+    <div id="contFigura">
+        <h2> FIGURA </h2>
+        <div id="figura"></div>  
+    </div>
+</div>
+
+
+
+<div id="contOperaciones">
+    <h2> Capturar datos </h2>
+
+    <input type="number" id="valor1">
+    <select name="#" id="operaciones">
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+        <option value="*"> * </option>
+        <option value="/"> / </option>
+    </select>
+
+    <input type="number" id="valor2">
+    <button onclick="operaciones()"> = </button>
+    <input type="number" id="respuesta">
+</div>    
+
+
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
